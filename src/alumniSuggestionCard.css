@@ -1,0 +1,38 @@
+.alumniSuggestionCard{
+    width: 20%;
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid cadetblue;;
+    border-radius: 0px;
+    background-color: rgb(245, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+.alumniSuggestionCard:hover{
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0px 0px  3px cadetblue;
+    transition: 0.4s;
+}
+.alumniSuggestionImage{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin:auto;
+    margin-bottom: 3px;
+}
+.alumniSuggestionDetail{
+    text-align: center;
+}
+.alumniSuggestionName{
+    padding: 4%;
+    background-color: cadetblue;
+    text-align: center;
+}
+.alumniSuggestionCompany{
+    padding: 4%;
+    font-weight: bold;
+}
+.alumniSuggestionYear{
+    padding: 4%;
+}

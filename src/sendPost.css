@@ -1,0 +1,103 @@
+.sendPost-bg-model {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    transition: visibility 1s, opacity 0.5s linear;
+    position: fixed;
+    z-index: 1;
+}
+
+.sendPost-model-content {
+    width: 50%;
+    max-width: 70%;
+    height: auto;
+    max-height: 95%;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    scrollbar-width: 0.5px;
+    text-align: center;
+}
+
+
+.sendPost-model-content .toggleClose {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+}
+
+.sendPostHead{
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(44, 179, 44);
+}
+
+.sendPostSubmit{
+    padding: 16px 60px;
+    margin: 20px;
+    background-color: rgb(34, 197, 34);
+    color:white;
+    border:1px solid  rgb(34, 197, 34);
+    cursor: pointer;
+}
+
+.sendPostSubmit:hover{
+    background-color: white;
+    color:rgb(34, 197, 34);
+}
+
+.sendPostLabel{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.eventDetails{
+    display: block;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+}
+input[type=file]{
+    display: block;
+    margin-bottom:20px;
+}
+.isEvent{
+    display: inline-block;
+}
+.uploadImage{
+    display: inline-block;
+}
+input[type=radio]{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+input[type=file]{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+textarea{
+    padding: 10px;
+}

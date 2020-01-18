@@ -1,0 +1,146 @@
+.postArea{
+    width: 50%;
+    /* for testing*/
+    display: block;
+    margin: auto;
+}
+
+.postBox {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid rgba(59, 52, 52, 0.3);
+    border-radius: 2px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.postHeader{
+    display: block;
+    width: 90%;
+    margin:auto;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(70, 67, 67);
+    position: relative;
+    padding:10px 0;
+}
+
+.postUserImageContainer{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid rgb(147, 193, 246);
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.postUserImage{
+    width: 60px;
+    height: auto;
+}
+
+.postUserName{
+    color: rgb(31, 112, 204);
+    font-size: large;
+    font-weight: bold;
+}
+
+.postDate, .postTime{
+    color: rgba(83, 79, 79, 0.685);
+}
+.menuIcon{
+    width: auto;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-top:20px;
+    cursor: pointer;
+
+}
+.options{
+    position: absolute;
+    background-color: white;
+    border: 1px solid gray;
+    left: 100%;
+    bottom:70%;
+    display: none;
+    padding: 0px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(240, 240, 249);
+}
+.options ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.options ul li{
+    display: block;
+    padding: 6px;
+    margin:auto;
+    border-bottom: 1px solid gray;;
+}
+.postContent{
+    color:black;
+    width: 90%;
+    padding: 2px;
+    display: block;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+.postImage{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.postHeading{
+    font-size: larger;
+    font-weight: bold;
+}
+.postText{
+    color:black;
+    border-top: 1px solid gray;
+    background-color: rgb(244, 244, 244);
+    padding: 10px;
+}
+.postFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerButton{
+    padding:18px 35px;
+    display: inline-block;
+    border:1px solid gray;
+    background-color: rgb(230, 230, 230);
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+.noPost{
+    width: 95%;
+    background-color: rgb(248, 122, 122);
+    padding: 40px;
+    border: 2px solid red;
+    margin:auto;
+    position: relative;
+}
+.noPostContent{
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    text-shadow: 1px 1px 1px red;
+}
+.closePost{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}

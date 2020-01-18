@@ -1,0 +1,56 @@
+.alumniCard{
+    width: 45%;
+    display: inline-block;
+    padding: 10px;
+    margin: 30px;
+   border-radius: 3px;
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+.alumniCard:hover{
+    background-color: rgb(251, 251, 251);
+    transition: 0.4s;
+}
+.alumniDetail{
+    padding-top: 14%;
+    display: flex;
+    vertical-align: middle;
+}
+
+.alumniImage{
+    float:right;
+    width: auto;
+    max-width: 50%;
+    height: 250px;
+    padding-left: 20px;
+    border-left : 1px solid gray;
+}
+.verifiedAlumni{
+    /*border:1.5px solid rgb(43, 139, 19);*/
+    background-color: rgb(241, 255, 241);
+}
+.toBeVerifiedAlumni{
+    /*border:1.5px solid rgb(35, 113, 216);*/
+    background-color: rgb(245, 245, 255);
+}
+.rejectedAlumni{
+    /*border:1.5px solid rgb(190, 64, 64);*/
+    background-color: rgb(255, 242, 242);
+}
+.allAlumni{
+    /*border:1.5px solid rgb(40, 43, 44);*/
+    background-color: rgb(249, 249, 249);
+}
+
+.verifiedAlumni:hover{
+    box-shadow: 0px 0px 12px rgb(51, 255, 0);
+}
+.toBeVerifiedAlumni:hover{
+    box-shadow: 0px 0px  12px rgb(60, 128, 218);
+}
+.rejectedAlumni:hover{
+    box-shadow: 0px 0px  12px rgb(184, 71, 71);
+}
+.allAlumni:hover{
+    box-shadow: 0px 0px  12px rgb(84, 86, 87);
+}
